@@ -1,20 +1,20 @@
 class Cljw < Formula
   desc "JVM-free Clojure runtime in Zig, with a WebAssembly FFI"
   homepage "https://github.com/clojurewasm/ClojureWasm"
-  version "1.1.0"
+  version "1.2.0"
   license "EPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/clojurewasm/ClojureWasm/releases/download/v1.1.0/cljw-macos-aarch64.tar.gz"
-      sha256 "8d102f179f8b525353f5068625bb04e89f350aeb2bad0b82953f17511f21b317"
+      url "https://github.com/clojurewasm/ClojureWasm/releases/download/v1.2.0/cljw-macos-aarch64.tar.gz"
+      sha256 "c7e591b2178577fc406f67d1c3fc00394c3d47ddddd0958a1dcc9b45a434de63"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clojurewasm/ClojureWasm/releases/download/v1.1.0/cljw-linux-x86_64.tar.gz"
-      sha256 "ed6825c83c2e1266014575b61980fad4a9d4de2d2ca8cb6fd6cfedfedd560276"
+      url "https://github.com/clojurewasm/ClojureWasm/releases/download/v1.2.0/cljw-linux-x86_64.tar.gz"
+      sha256 "deabb532799953ddd183a47d1d545eb526d86592d0ad91c591b545b077fe3c4f"
     end
   end
 
