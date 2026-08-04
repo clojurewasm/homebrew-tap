@@ -1,7 +1,6 @@
 class Cljw < Formula
   desc "JVM-free Clojure runtime in Zig, with a WebAssembly FFI"
   homepage "https://github.com/clojurewasm/ClojureWasm"
-  version "1.8.0"
   license "EPL-2.0"
 
   on_macos do

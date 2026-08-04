@@ -1,7 +1,6 @@
 class Zwasm < Formula
   desc "From-scratch WebAssembly runtime in Zig — Wasm 3.0, WASI, JIT + AOT"
   homepage "https://github.com/clojurewasm/zwasm"
-  version "2.4.1"
   license "Apache-2.0"
 
   on_macos do
