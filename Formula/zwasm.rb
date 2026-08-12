@@ -5,19 +5,19 @@ class Zwasm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/clojurewasm/zwasm/releases/download/v2.4.1/zwasm-macos-aarch64.tar.gz"
-      sha256 "f9c3e4fb07b1f246b31951b51cab1e48f8352e21b22113e224e34271302b9681"
+      url "https://github.com/clojurewasm/zwasm/releases/download/v2.5.0/zwasm-macos-aarch64.tar.gz"
+      sha256 "22c7ba960d8d5b6a10ef978a3d6766d34bd30b726678880e4de7edf8674f9310"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clojurewasm/zwasm/releases/download/v2.4.1/zwasm-linux-x86_64.tar.gz"
-      sha256 "7b24467489490e574b7c521ca0ec68890ac710d8e809a070c7d93cf825db8a18"
+      url "https://github.com/clojurewasm/zwasm/releases/download/v2.5.0/zwasm-linux-x86_64.tar.gz"
+      sha256 "fa7bc6a35ead2919385763ad0afea928f5ea7770764b648db9bc73ec492410b5"
     end
     on_arm do
-      url "https://github.com/clojurewasm/zwasm/releases/download/v2.4.1/zwasm-linux-aarch64.tar.gz"
-      sha256 "9a5247bbd0bfb9c9c6c4d0926e66f41db42a8e68d1a4c4de4147627294fc87d1"
+      url "https://github.com/clojurewasm/zwasm/releases/download/v2.5.0/zwasm-linux-aarch64.tar.gz"
+      sha256 "4afc3f45ac7b9386246df8158ae45757cf0dd0191a40b01c24448076d8918796"
     end
   end
 
